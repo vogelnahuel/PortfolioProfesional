@@ -5,6 +5,9 @@ import perfil from './assets/Perfil.jpeg'
 import Typed from "typed.js";
 import   Cv  from './assets/Cv-VogelNahuel-10mesesExp.pdf'
 import  Cotizador from './assets/Cotizador.png'
+import  Citas from './assets/Citas.png'
+import  Criptomonedas from './assets/Criptomonedas.png'
+import  Crud from './assets/Crud.png'
 
 function App() {
 
@@ -116,7 +119,7 @@ function App() {
                             <br/>
                             -Base de Datos (SQL SERVER,PL SQL ORACLE).
                           </p>
-                          <p className="experiencia">Tareas: realize tanto diseño de paginas ,
+                          <p className="experiencia">Tareas: realice tanto diseño de paginas ,
                             como su funcionalidad y la integracion con las diferentes bases de datos,
                             Utilizando diferentes Patrones de diseño.
                           </p>
@@ -144,25 +147,102 @@ function App() {
                     <h4 className="subTitle">Projects</h4>
                     <div className="card-100">
                           <div className="alinear-contenido-proyectos">
-                            <img className="proyectos-img" alt="cotizador" src={Cotizador}/>
+                            <div className="container-img">
+                              <img className="proyectos-img" alt="cotizador" src={Cotizador}/>
+                            </div>
                             <div className="contenido"> 
-                              <p className="tags">#html&nbsp;&nbsp;&nbsp;&nbsp;#css&nbsp;&nbsp;&nbsp;&nbsp;#js&nbsp;&nbsp;&nbsp;&nbsp;#react&nbsp;&nbsp;&nbsp;&nbsp;#tailwind</p>
-                              <h3 className="subTitle-center">Buscador de autos</h3>
-                            
+                              <p className="tags">
+                                <ul className="tags-ul">  
+                                  <li>#html</li>
+                                  <li>#css</li>
+                                  <li>#js</li>
+                                  <li>#react</li>
+                                  <li>#tailwind</li>
+                                </ul>
+                                </p>
+                                  <h3 className="subTitle-center">Buscador de autos</h3>
+
                               <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/BuscadorDeProductos/">Ver Proyecto</a>
                               <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/BuscadorDeProductos">Codigo</a>
                             </div>
                           </div>
                     </div>
+                    <div className="card-100">
+                          <div className="alinear-contenido-proyectos">
+                              <div className="container-img">
+                                <img className="proyectos-img" alt="cotizador" src={Citas}/>
+                              </div>
+                            <div className="contenido"> 
+                              <p className="tags">
+                              <ul className="tags-ul">  
+                                  <li>#html</li>
+                                  <li>#css</li>
+                                  <li>#js</li>
+                                  <li>#tailwind</li>
+                                </ul>
+                              </p>
+                                <h3 className="subTitle-center">Administrador de Citas</h3>
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Administrador-De-Citas/">Ver Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Administrador-De-Citas">Codigo</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div className="card-100">
+                          <div className="alinear-contenido-proyectos">
+                            <div className="container-img">
+                              <img className="proyectos-img" alt="cotizador" src={Criptomonedas}/>
+                            </div>
+                            <div className="contenido"> 
+                              <p className="tags">
+                              <ul className="tags-ul">  
+                                  <li>#html</li>
+                                  <li>#css</li>
+                                  <li>#js</li>
+                                  <li>#bootstrap</li>
+                                </ul>
+                              </p>
+
+                                <h3 className="subTitle-center">Cotizador de Criptomonedas</h3>
+
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Criptomonedas/">Ver Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Criptomonedas">Codigo</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div className="card-100">
+                          <div className="alinear-contenido-proyectos">
+                            <div className="container-img">
+                              <img className="proyectos-img" alt="cotizador" src={Crud}/>
+                            </div>
+                            <div className="contenido"> 
+                              <p className="tags">
+                                <ul className="tags-ul">  
+                                  <li>#html</li>
+                                  <li>#css</li>
+                                  <li>#js</li>
+                                  <li>#tailwind</li>
+                                </ul>
+                              </p>
+
+                                <h3 className="subTitle-center">Administrador de Clientes</h3>
+
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/administradorDeCLientes/">Ver Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/administradorDeCLientes">Codigo</a>
+                            </div>
+                          </div>
+                    </div>
           </section>
+          
           <hr className="separador" id="separadorFinal"/>
           <footer id="contacto">
                   <div className="flex">
                     <p className="footer-p">vogelnahuel@gmail.com</p>
-                     <a className="z-index" rel="noreferrer" target="_blank" href="https://www.facebook.com/youtube.com.user/"><i class="icon-facebook fab fa-facebook"></i></a>
-                     <a className="z-index" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/nahuel-vogel-a4b681181/"><i class="icon-facebook fab fa-linkedin"></i></a>
-                     <a className="z-index" rel="noreferrer" target="_blank" href="https://twitter.com/bloqueo_trolls"><i class="icon-facebook fab fa-twitter"></i></a>
-                     <a className="z-index" rel="noreferrer" target="_blank" href="https://github.com/vogelnahuel"><i class="icon-facebook fab fa-github"></i></a>
+                    <div>
+                      <a className="z-index" rel="noreferrer" target="_blank" href="https://www.facebook.com/youtube.com.user/"><i class="icon-facebook fab fa-facebook"></i></a>
+                      <a className="z-index" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/nahuel-vogel-a4b681181/"><i class="icon-facebook fab fa-linkedin"></i></a>
+                      <a className="z-index" rel="noreferrer" target="_blank" href="https://twitter.com/bloqueo_trolls"><i class="icon-facebook fab fa-twitter"></i></a>
+                      <a className="z-index" rel="noreferrer" target="_blank" href="https://github.com/vogelnahuel"><i class="icon-facebook fab fa-github"></i></a>
+                    </div>
                     <p className="footer-p">Copyright © Nahuel V  |  2021</p>
                   </div>
           </footer>
