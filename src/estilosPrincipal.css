@@ -295,6 +295,7 @@ body::-webkit-scrollbar-track {
         margin-left: auto;
         margin-right: auto;
         display: inline-block;
+        width: 80%;
     }
     .proyectos-img{
         width: 250px;
@@ -319,8 +320,17 @@ body::-webkit-scrollbar-track {
     .NombrePrincipal{
         font-size: 20px;
     }
+    .navegacion{
+        margin-top: 25px;
+    }
     .navegacion-principal{
         font-size: 15px;
+    }
+    .codigo{
+        margin-left: 46%;
+    }
+    .laptop{
+        margin-left: 46%;
     }
 }
 @media (min-width:1600px){
