@@ -58,7 +58,7 @@
     left: 0;
     width: 100%;
     color: #fff;
-    background-color: #3E000C;
+    background-color: #C52233;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@
     font-size: 18px;
 }
 .container-animation-cv span:nth-child(2){
-    color: #3E000C;
+    color: #C52233;
     background-color: #fff;
     overflow: hidden;
     z-index: 20;
@@ -109,7 +109,7 @@
     z-index: 2;
 }
 .animacion-dev{
-    color:  #ffdb4d;
+    color:  #F4AC45;
 }
 .z-index{
     z-index: 10;
