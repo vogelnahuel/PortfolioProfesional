@@ -28,8 +28,14 @@
 
 .arroba{
     font-size: 45px;
-    font-family: "Mulish",Helvetica,Arial,sans-serif;
+    font-family: "Stick No Bills",Helvetica,Arial,sans-serif;
     color: white;
+    z-index: 10;
+}
+.arroba-h2{
+    font-size: 45px;
+    font-family: "Anton",Helvetica,Arial,sans-serif;
+    color: #688E26;
     z-index: 10;
 }
 .img-principal{
@@ -52,7 +58,7 @@
     left: 0;
     width: 100%;
     color: #fff;
-    background-color: #6c4ba5;
+    background-color: #3E000C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +67,7 @@
     font-size: 18px;
 }
 .container-animation-cv span:nth-child(2){
-    color: #6c4ba5;
+    color: #3E000C;
     background-color: #fff;
     overflow: hidden;
     z-index: 20;
@@ -82,13 +88,14 @@
     border-color: #fed136;
     border-radius: 3px;
     font-size: 18px;
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 20px 40px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     z-index: 10;
     cursor: pointer;
+    margin-top: 20px;
 }
 .pagina-inicio{
     height: 100vh;
@@ -351,7 +358,7 @@ body::-webkit-scrollbar-track {
     }
     .button-link{
         width: 150px;
-        height: 50px;
+        height: 70px;
         padding: 15px;
     }
     .flex{

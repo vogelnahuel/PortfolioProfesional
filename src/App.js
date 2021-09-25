@@ -59,7 +59,7 @@ function App() {
               </div>
               <div className="center">
                   <img className="img-principal" src={perfil} alt=""/>
-                  <h2 className="arroba">@vogelNahuel</h2>
+                  <h2 className="arroba-h2">@vogelNahuel</h2>
                   <p className="arroba">I am a developer <span className="animacion-dev" ref={el}></span></p>
                   
                     <a className="z-index container-animation-cv" href={Cv} download="vogel-nahuel-cv">
