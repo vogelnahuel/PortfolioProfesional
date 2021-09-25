@@ -150,12 +150,17 @@
     height: auto;
     background-color: #0e0e0e;
     color: #00E8FC;
-    border: 2px solid #00E8FC; /* Green */
+    border: 2px solid #00E8FC; 
     font-size: 16px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
 }
+.button-link:hover{
+    border: 2px solid #41a79e;
+    color: #41a79e;
+}
+
 #espacio{
     margin-left: 10px;
 }

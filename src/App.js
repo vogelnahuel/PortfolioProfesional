@@ -9,6 +9,7 @@ import  Citas from './assets/Citas.png'
 import  Criptomonedas from './assets/Criptomonedas.png'
 import  Crud from './assets/Crud.png'
 
+
 function App() {
 
   const el = useRef(null);
@@ -29,6 +30,7 @@ function App() {
     
     // elRef refers to the <span> rendered below
     typed.current = new Typed(el.current, options);
+ 
     
     return () => {
       // Make sure to destroy Typed instance during cleanup
@@ -37,10 +39,12 @@ function App() {
     }
   }, [])
 
+  
 
   
   return (
     <div>
+         
           <ParticleBackground />
           <div className="pagina-inicio">
               <div className="nav-flexbox">
@@ -86,7 +90,7 @@ function App() {
               </div>
               <div className="card">
 
-                    <i class="codigo fas fa-code"></i>
+                    <i className="codigo fas fa-code"></i>
 
                    
                     <h4 className="subTitle">Skills</h4>
@@ -246,6 +250,8 @@ function App() {
                     <p className="footer-p">Copyright © Nahuel V  |  2021</p>
                   </div>
           </footer>
+      
+          
     </div>
   );
   }
