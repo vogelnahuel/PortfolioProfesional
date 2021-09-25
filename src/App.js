@@ -165,9 +165,10 @@ function App() {
                                 </ul>
                                 </p>
                                   <h3 className="subTitle-center">Buscador de autos</h3>
-
-                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/BuscadorDeProductos/">Ver Proyecto</a>
-                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/BuscadorDeProductos">Codigo</a>
+                              
+                                <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/BuscadorDeProductos/"><span>Ver el Proyecto</span></a>
+                                <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/BuscadorDeProductos"><span>ver el Codigo</span></a>
+                              
                             </div>
                           </div>
                     </div>
@@ -186,8 +187,8 @@ function App() {
                                 </ul>
                               </p>
                                 <h3 className="subTitle-center">Administrador de Citas</h3>
-                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Administrador-De-Citas/">Ver Proyecto</a>
-                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Administrador-De-Citas">Codigo</a>
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Administrador-De-Citas/">Ver el Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Administrador-De-Citas">ver el Codigo</a>
                             </div>
                           </div>
                     </div>
@@ -208,8 +209,8 @@ function App() {
 
                                 <h3 className="subTitle-center">Cotizador de Criptomonedas</h3>
 
-                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Criptomonedas/">Ver Proyecto</a>
-                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Criptomonedas">Codigo</a>
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/Criptomonedas/">Ver el Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/Criptomonedas">ver el Codigo</a>
                             </div>
                           </div>
                     </div>
@@ -230,8 +231,8 @@ function App() {
 
                                 <h3 className="subTitle-center">Administrador de Clientes</h3>
 
-                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/administradorDeCLientes/">Ver Proyecto</a>
-                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/administradorDeCLientes">Codigo</a>
+                              <a rel="noreferrer" className="z-index button-link" target="_blank" href="https://vogelnahuel.github.io/administradorDeCLientes/">Ver el Proyecto</a>
+                              <a id="espacio" rel="noreferrer" className="z-index button-link" target="_blank" href="https://github.com/vogelnahuel/administradorDeCLientes">ver el Codigo</a>
                             </div>
                           </div>
                     </div>
