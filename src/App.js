@@ -62,10 +62,13 @@ function App() {
                   <h2 className="arroba">@vogelNahuel</h2>
                   <p className="arroba">I am a developer <span className="animacion-dev" ref={el}></span></p>
                   
-                    <a className="z-index" href={Cv} download="vogel-nahuel-cv">
-                      <button className="button-cv">
+                    <a className="z-index container-animation-cv" href={Cv} download="vogel-nahuel-cv">
+                      <span className="button-cv">
                         Curriculum vitae
-                      </button>
+                      </span>
+                      <span className="button-cv">
+                        Curriculum vitae
+                      </span>
                     </a>
               </div>
           </div>
